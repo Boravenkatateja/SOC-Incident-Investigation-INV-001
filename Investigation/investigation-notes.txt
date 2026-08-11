@@ -1,0 +1,62 @@
+INVESTIGATION NOTES
+
+Incident ID:
+INV-001
+
+Initial Classification:
+Phishing
+
+Initial Finding:
+The affected user received a phishing email containing a
+suspicious external link.
+
+User Interaction:
+The user clicked the phishing URL.
+
+Endpoint Assessment:
+No file download detected.
+No suspicious process execution detected.
+No malware execution detected.
+
+Authentication Assessment:
+Multiple failed login attempts were followed by a successful
+login from unfamiliar IP address 185.234.72.91.
+
+Mailbox Assessment:
+Unauthorized mailbox access was detected.
+An external forwarding rule was created.
+Three emails were accessed.
+One email containing financial information was accessed.
+
+Impact Assessment:
+Potential exposure of sensitive information and unauthorized
+mailbox access.
+
+Final Classification:
+Likely Account Compromise
+
+Final Severity:
+HIGH
+
+Reasoning:
+The combination of confirmed phishing activity, user interaction,
+suspicious authentication, unauthorized mailbox access, creation
+of an external forwarding rule, and access to financial
+information strongly indicates a likely account compromise.
+
+Containment:
+Account protection initiated.
+Suspicious sessions/tokens identified for revocation.
+Password reset required.
+MFA status verified.
+Unauthorized forwarding rule removed.
+Further investigation recommended.
+
+Important Limitation:
+There is currently insufficient evidence to confirm that
+financial information was successfully exfiltrated.
+
+SOC Conclusion:
+The incident progressed from a phishing alert to a likely account
+compromise. No malware execution was detected on the endpoint.
+Further identity, mailbox, and indicator investigation is required.
