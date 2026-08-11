@@ -1,0 +1,28 @@
+ENDPOINT ACTIVITY
+
+Device:
+WIN-CLIENT-014
+
+User:
+employee@company.local
+
+URL Click:
+10:27:42 AM
+
+Browser:
+Microsoft Edge
+
+10:27:45 AM:
+Connection attempt to microsoft-security-verification.com
+
+10:27:47 AM:
+No file download detected.
+
+10:28:02 AM:
+No suspicious process execution detected.
+
+10:28:15 AM:
+Browser session ended.
+
+EDR Assessment:
+No malware execution detected.
