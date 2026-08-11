@@ -1,0 +1,33 @@
+MAILBOX ACTIVITY
+
+User:
+employee@company.local
+
+10:33:07 AM
+Mailbox access detected from:
+185.234.72.91
+
+10:33:22 AM
+Inbox accessed.
+
+10:33:41 AM
+External forwarding rule created.
+
+Forwarding destination:
+external-mail@example.net
+
+10:34:03 AM
+3 emails marked as read.
+
+10:34:28 AM
+1 email containing financial information accessed.
+
+10:34:51 AM
+No emails sent from the account.
+
+10:35:10 AM
+Unauthorized forwarding rule removed by security team.
+
+Assessment:
+Unauthorized mailbox activity detected.
+Potential exposure of sensitive information.
