@@ -1,0 +1,43 @@
+CONTAINMENT ACTIONS
+
+Incident:
+INV-001
+
+Severity:
+High
+
+Affected User:
+employee@company.local
+
+Containment Actions:
+
+1. Account protection initiated.
+
+2. Active sessions and suspicious authentication tokens
+   should be revoked according to company procedure.
+
+3. Password reset required.
+
+4. MFA status verified and MFA re-enrollment required
+   if necessary.
+
+5. Unauthorized external email forwarding rule identified
+   and removed.
+
+6. Recent mailbox activity reviewed for suspicious actions.
+
+7. Suspicious IP:
+   185.234.72.91
+
+8. Authentication activity from the suspicious IP
+   escalated for further investigation.
+
+9. Similar authentication and mailbox activity should be
+   searched across other users.
+
+Containment Status:
+In Progress
+
+Reason:
+Evidence indicates likely account compromise and possible
+unauthorized access to the user's mailbox.
