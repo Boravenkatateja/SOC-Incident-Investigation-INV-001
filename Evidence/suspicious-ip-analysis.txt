@@ -1,0 +1,49 @@
+SUSPICIOUS IP ANALYSIS
+
+IP Address:
+185.234.72.91
+
+Authentication Activity:
+
+10:31:44 AM
+Failed login
+User: employee@company.local
+
+10:32:01 AM
+Failed login
+User: employee@company.local
+
+10:32:19 AM
+Successful login
+User: employee@company.local
+
+Source IP:
+185.234.72.91
+
+Device:
+Unknown
+
+Location:
+Unknown
+
+Previous Activity:
+No successful logins from this IP observed in the
+previous 30 days.
+
+Additional SIEM Findings:
+
+10:33:07 AM
+Mailbox access detected.
+
+10:33:41 AM
+Email forwarding rule creation detected.
+
+Rule:
+Forward incoming emails to external address.
+
+10:34:12 AM
+Session remained active.
+
+Assessment:
+The authentication and mailbox activity from this IP
+is consistent with potential unauthorized account access.
